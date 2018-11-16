@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+   <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--<item name="android:background">@drawable/samlebutonbackground</item>
+-->
+    <style name="MultiGradient">
+        <item name="android:background">@drawable/btnbackground</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:textColor">@drawable/selector_color</item>
+    </style>
+
+    <style name="Theme.Example.Leanback" parent="Theme.Leanback">
+        <item name="android:colorPrimary">#00A2B8</item>
+        <item name="android:colorAccent">#80D3FB</item>
+    </style>
+
+    <style name="Theme.Example.LeanbackLauncher" parent="Theme.Example.Leanback">
+        <item name="browseRowsMarginTop">275dp</item>
+    </style>
+
+    <style name="customTextView" >
+        <item name="android:fontFamily">@font/alex_brush</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/alex_brush</item>
+    </style>
+</resources>

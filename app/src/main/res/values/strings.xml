@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="kbsample_title">Input Form Sample</string>
+    <string name="kbsample_description">This form is just to illustrate how you can use normal EditText widgets to get the "wizard" feelings on ASB.</string>
+
+    <string name="kbsample_button_label">Edit Values</string>
+
+    <string name="kbsample_field_name_label">Name:</string>
+    <string name="kbsample_field_name_hint">User name</string>
+    <string name="kbsample_field_name_description">This is the name that will be shown on the entire Amazon site.</string>
+    <string name="kbsample_field_name_backLabel">Cancel</string>
+
+    <string name="kbsample_field_email_label">Email:</string>
+    <string name="kbsample_field_email_hint">Amazon email</string>
+    <string name="kbsample_field_email_description">This email might be used as yout login as well.</string>
+
+    <string name="kbsample_field_phone_label">Phone:</string>
+    <string name="kbsample_field_phone_hint"></string>
+    <string name="kbsample_field_phone_description"></string>
+
+    <string name="kbsample_field_password_label">Password:</string>
+    <string name="kbsample_field_password_hint"></string>
+    <string name="kbsample_field_password_description"></string>
+
+    <string name="kbsample_field_pin_label">PIN:</string>
+    <string name="kbsample_field_pin_hint"></string>
+    <string name="kbsample_field_pin_description"></string>
+    <string name="kbsample_field_pin_nextLabel">SAVE</string>
+</resources>

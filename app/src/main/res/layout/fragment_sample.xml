@@ -1,0 +1,39 @@
+<!--
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.support.v17.leanback.supportleanbackshowcase.app.sample.SampleFragment">
+
+    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SampleFragment">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="welcome to sample"
+        android:textAlignment="viewStart" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>

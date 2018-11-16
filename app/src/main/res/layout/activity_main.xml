@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/load_gallery"
+        android:layout_width="300dp"
+        android:layout_height="@dimen/button_height"
+        android:text="hiiii"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        style="@style/MultiGradient"/>
+
+
+
+
+    <FrameLayout
+        android:id="@+id/imagelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        android:foregroundGravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@id/load_gallery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+            android:id="@+id/loadimage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+        <ImageView
+            android:id="@+id/topimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|right"
+            android:src="@drawable/arrow_drop_down_grey"/>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context=".sample.Main3Activity">
+
+    <com.example.sulochana.myapplication.sample.PinEntryEditText
+        android:id="@+id/txt_pin_entry1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+
+        android:textSize="24dp"
+        app:pinAnimationType="fromBottom"
+        app:pinBackgroundDrawable="@drawable/bg_pin1"
+        app:pinBackgroundIsSquare="true"
+        app:pinCharacterSpacing="4dp"
+        app:pinTextBottomPadding="16dp"
+        tools:ignore="SpUsage"/>
+    <requestFocus/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+</LinearLayout>

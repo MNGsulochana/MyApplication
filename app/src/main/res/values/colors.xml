@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+   <!-- <color name="focused_start_multi">#F88800</color>
+    <color name="focused_end_multi">#CB5500</color>-->
+    <color name="focused_start_multi_1">#FDD401</color>
+    <color name="focused_end_multi_1">#E68E15</color>
+    <color name="focused_border">#862501</color>
+    <color name="normal_text">#000000</color>
+    <color name="pressed_text">#FFFFFF</color>
+    <color name="focused_text">#000000</color>
+
+
+    <color name="focused_end_multi">#FFBB64</color>
+    <color name="focused_middle_multi">#C78242</color>
+    <color name="focused_start_multi">#FFE67F</color>
+
+    <color name="pin_normal">#6B767E</color>
+
+
+  <!--  #FFBB64 #C78242 #FFE67F-->
+</resources>
