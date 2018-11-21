@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_weight="1"
-
+        android:background="#f00"
         android:layout_height="match_parent">
 
         <LinearLayout
@@ -41,17 +41,9 @@
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-
+                android:background="#0ff"
                 android:layout_weight="2">
-
-                <FrameLayout
-
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                    <include layout="@layout/prelogin" />
-                </FrameLayout>
-
-
+                <include layout="@layout/prelogin" />
 
             </LinearLayout>
 

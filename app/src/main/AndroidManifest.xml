@@ -36,12 +36,14 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme">
 
-           <!-- <intent-filter>
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
                 &lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
 
         <provider
@@ -58,8 +60,11 @@
             android:name=".sample.ActivityBasicSample"
             android:exported="true"
             android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <!--   -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <meta-data
@@ -70,27 +75,37 @@
             android:name=".Main2Activity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme">
-           <!-- <intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+            -->
         </activity>
-        <activity android:name=".sample.Main3Activity"
+        <activity
+            android:name=".sample.Main3Activity"
             android:theme="@style/AppTheme">
-         <!--   <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
-        </activity>
-
-        <activity android:name=".keyboard.KeyboardInputActivity">
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".keyboard.KeyboardInputActivity">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".keyboard.KeyBoardInput">
+
         </activity>
     </application>
+
 </manifest>
